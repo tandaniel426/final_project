@@ -41,8 +41,18 @@ article {
     width: 550px;
 }
 
+#about-image {
+    width: 600px;
+    height: auto;
+}
+
 #images {
     padding-bottom: 5%;
+}
+
+#social {
+    width: 20%;
+    height: auto;
 }
 
 .content {
