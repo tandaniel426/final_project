@@ -11,7 +11,7 @@ header {
 }
 
 h1 {
-    font-size: 48pt;
+    font-size: 400%;
 }
 
 h2 {
@@ -26,13 +26,19 @@ h2 {
     background-attachment: fixed;
 }
 
+.home-image {
+    width: 40%;
+    margin: 2%;
+}
+
+article {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
 .post-image {
     height: 400px;
     width: 550px;
-}
-
-.home-image {
-    margin: 2%;
 }
 
 #images {
@@ -106,10 +112,6 @@ a {
 }
 
 @media (max-width: 1500px) {
-    h1 {
-        font-size: large;
-    }
-
     #home {
         min-height: 100%;
         background-size: auto 100%;
@@ -119,12 +121,12 @@ a {
     }
 
     .main {
-        width: 80%;
+        width: 90%;
     }
 
     .side {
         min-height: 100%;
-        width: 10%;
+        width: 5%;
         text-align: center;
         background-color: white;
         opacity: 75%;
