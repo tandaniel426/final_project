@@ -20,7 +20,7 @@ h2 {
 }
 
 #home {
-    background-size: 110% auto;
+    background-size: cover;
     background-position: 50% 45%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -122,14 +122,6 @@ a {
 }
 
 @media (max-width: 400px) {
-    #home {
-        min-height: 100%;
-        background-size: auto 100%;
-        background-position: 50% 45%;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-
     .main {
         width: 90%;
     }
@@ -141,8 +133,6 @@ a {
     .side {
         min-height: 100%;
         width: 5%;
-        text-align: center;
-        background-color: white;
         opacity: 75%;
     }
 }
