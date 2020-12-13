@@ -121,7 +121,7 @@ a {
     opacity: 75%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1500px) {
     #home {
         min-height: 100%;
         background-size: auto 100%;
@@ -132,6 +132,10 @@ a {
 
     .main {
         width: 90%;
+    }
+
+    h1 {
+        font-size: 200%;
     }
 
     .side {
